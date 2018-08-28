@@ -6,7 +6,7 @@ const Cover = () => (
 			<img className="cover-image bg-screen" src={require('../images/rob-paul-2.jpg') } alt="Portrait of Robert Paul" />
 			<img className="cover-image sm-screen" src={require('../images/rob-paul.jpg') } alt="Robert Paul running a sprint"/>
 		</div>
-		<div className="flex-item">
+		<div className="flex-item flex-center">
 			<div className="cover-info">
 				<section>
 					<h1 className="cover-rhythm-1">

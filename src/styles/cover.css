@@ -1,5 +1,5 @@
 .viewport-wrap {
-  min-height: 100vh;
+  height: 100vh;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -8,15 +8,16 @@
   flex-direction: row; }
 
 .flex-item {
-  width: 50%; }
-
-.flex-center {
+  width: 50%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
   align-items: center; }
 
 .cover-info {
-  position: relative;
-  padding: 50px;
-  top: 15%; }
+  padding: 50px; }
 
 .cover-image {
   object-fit: cover;
@@ -27,7 +28,7 @@
   text-transform: uppercase; }
 
 .cover-rhythm-1 {
-  margin-bottom: 15px; }
+  margin-bottom: 5px; }
 
 .cover-rhythm-2 {
   margin-bottom: 30px; }
