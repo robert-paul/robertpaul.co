@@ -15,24 +15,15 @@ const Cover = () => (
 					<h3 className="cover-label cover-rhythm-2" >
 						Product Manager & Engineer / Design Geek
 					</h3>
-					<label>About me</label>
+					<label>About m<span className="rm-ls">e</span></label>
 					<p>
-						<strong>I've always had a love for products.</strong> When my aunt worked at Hewlett Packard in the early 90's, I would obsessively study the computers she worked on, inundating her team with countless questions, as well as begging to play another round of <a href="https://en.wikipedia.org/wiki/SkiFree" target="_blank" rel="noopener noreferrer">SkiFree</a>. I was fascinated by how such a piece of technology could exist. 
+						<strong className="yellow">I've always had a love for products.</strong> After working as an engineer, building multiple products for a variety of bay area startups, I sought to understand new ways of creating products using iterative methodologies. I went to graduate school at Carnegie Mellon University for Human-Computer Interaction.
 					</p>
 					<br />
-					<label>Beginnings</label>
-					<p>
-						<strong>My first job in high school</strong> came when a family friend mentioned she needed a website that could accept payments for her new side business. She looked at me and asked <em>"Could you make it? I'd give you $400"</em>. <strong>Three days later I sent her the link to her new website.</strong> The rest was history.
-					</p>
 					<br />
-					<label>Evolving</label>
+					<label>Toda<span className="rm-ls">y</span></label>
 					<p>
-						<strong>After working as an engineer</strong>, building multiple products for a variety of bay area startups, <strong>I sought to understand new ways of creating products using iterative methodologies</strong>. I went to graduate school at Carnegie Mellon University, the school that invented the discipline of Human-Computer Interaction.
-					</p>
-					<br />
-					<label>Today</label>
-					<p>
-						I'm now a product manager that uses 8 years of cross-functional expertise to ship first-class products that people want and love. Find me at hellothisisrob@gmail.com.
+						I'm now a product manager that uses <strong className="yellow">8 years of cross-functional expertise</strong> to ship first-class products that people want and love. Find me at hellothisisrob@gmail.com.
 					</p>
 					
 				</section>

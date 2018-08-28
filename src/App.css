@@ -68,7 +68,7 @@ h3 {
   line-height: 1.5em; }
 
 p {
-  line-height: 1.5em;
+  line-height: 160%;
   letter-spacing: -.021em; }
 
 a, a:active, a:visited {
@@ -83,8 +83,16 @@ a:hover {
   animation-timing-function: linear; }
 
 label {
-  font-size: 14px;
-  color: rgba(0, 0, 0, 0.55); }
+  display: inline-block;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  padding-bottom: 3px; }
+
+.yellow {
+  display: inline-block;
+  border-bottom: 2px solid yellow; }
 
 @keyframes blinkfast {
   0% {
@@ -104,6 +112,9 @@ label {
   /* Gecko Browsers */
   color: #fbf34c; }
 
+.rm-ls {
+  letter-spacing: initial; }
+
 .viewport-wrap {
   min-height: 100vh;
   display: -webkit-box;
@@ -122,7 +133,7 @@ label {
 .cover-info {
   position: relative;
   padding: 50px;
-  top: 5%; }
+  top: 15%; }
 
 .cover-image {
   object-fit: cover;
