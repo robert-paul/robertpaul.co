@@ -1,5 +1,5 @@
 {
-  "homepage": "https://robert-paul.github.io/robertpaul.co/",
+  "homepage": "https://robert-paul.github.io/robertpaul.co",
   "name": "robertpaul.co",
   "version": "0.1.0",
   "private": true,
@@ -14,7 +14,7 @@
   },
   "scripts": {
     "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/App.scss -o src",
-    "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive --usePolling --polling-interval 500",
+    "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js",
     "build-js": "react-scripts build",
