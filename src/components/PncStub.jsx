@@ -1,7 +1,7 @@
 import React from 'react';
 
 const PncStub = () => (
-	<div>thing</div>
+	<div></div>
 )
 
 export default PncStub;

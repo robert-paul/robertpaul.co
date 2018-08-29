@@ -17,13 +17,13 @@ const Cover = () => (
 					</h3>
 					<label>About m<span className="rm-ls">e</span></label>
 					<p>
-						<strong className="yellow">I've always had a love for products.</strong> After working as an engineer, building multiple products for a variety of bay area startups, I sought to understand new ways of creating products using iterative methodologies. I went to graduate school at Carnegie Mellon University for Human-Computer Interaction.
+						<strong className="">I've always had a love for products.</strong> After working as an engineer, building multiple products for a variety of bay area startups, I sought to understand new ways of creating products using iterative methodologies. I then earned my master's degree in Human-Computer Interaction at Carnegie Mellon University.
 					</p>
 					<br />
 					<br />
 					<label>Toda<span className="rm-ls">y</span></label>
 					<p>
-						I'm now a product manager that uses <strong className="yellow">8 years of cross-functional expertise</strong> to ship first-class products that people want and love. Find me at hellothisisrob@gmail.com.
+						I am now a product manager that uses <strong className="">8 years of cross-functional expertise</strong> to ship first-class products that people want and love. Find me at hellothisisrob@gmail.com.
 					</p>
 					
 				</section>

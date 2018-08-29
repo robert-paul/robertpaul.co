@@ -1,0 +1,30 @@
+.button {
+	display: inline-block;
+	background-color: #4500ee;
+	padding: 14px 2em;
+	margin: .5em .5em .5em 0;
+	color: #fff;
+	font-weight: 300;
+	white-space: normal;
+	border-radius: 3px;
+	letter-spacing: 1.9px;
+	min-width: 112px;
+	min-height: 48px;
+	border: 0;
+	outline: 0;
+	//background-image: linear-gradient(to bottom,#e50914,#db0510);
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23) ;
+	line-height: 1em;
+	vertical-align: middle;
+	user-select: none;
+	text-align: center;
+}
+
+.button:hover {
+	background-color: #5500ff ;
+	color: #fff;
+}
+
+.button-resume {
+	margin-top: 25px;
+}

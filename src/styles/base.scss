@@ -9,43 +9,47 @@
 
 html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Oxygen", Oxygen-Sans, Ubuntu, "Ubuntu", Cantarell, "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  font-size: 16px;
-  color: rgba(0,0,0,.88);
+  font-size: 17px;
+  //color: rgba(0,0,0,.88);
+  //color: #3d3d3d;
+  color: #333;
   text-rendering: optimizeLegibility;
 }
 
 h1 {
-	font-size: 54px;
+	font-size: 57.375px;
 	font-weight: 600;
 	letter-spacing: .006em;
 }
 
 h2 {
-	font-size: 36px;
+	font-size: 38.25px;
 }
 
 h3 {
-	font-size: 24px;
+	font-size: 25.5px;
 	font-weight: 300;
-	line-height: 1.5em
+	line-height: 1.5em;
+	letter-spacing: .01em;
 }
 
 p {
+	font-weight: 400;
 	line-height: 160%;
 	letter-spacing: -.021em;
 }
 
 a, a:active, a:visited {
-	color: #4500ee;
+	//color: #4500ee;
 	text-decoration: none;
 }
 
 a:hover {
 	text-decoration: none;
-	animation-name: blinkfast;
-	animation-duration: 2s;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
+	//animation-name: blinkfast;
+	//animation-duration: 2s;
+	//animation-iteration-count: infinite;
+	//animation-timing-function: linear;
 }
 
 label {
@@ -54,9 +58,9 @@ label {
 	color: rgba(0,0,0,.5);
 	text-transform: uppercase;
 	letter-spacing: 0.15em;
-	//padding-top: 2px;
+	padding-top: 2px;
 	padding-bottom: 3px;
-	//border-top: 2px solid yellow;
+	border-top: 2px solid yellow;
 }
 
 .yellow {
@@ -80,15 +84,50 @@ label {
 
 ::selection {
   background: #4500ee; /* WebKit/Blink Browsers */
-  color:  #fbf34c;
+  color:  yellow;
 }
 ::-moz-selection {
   background: #4500ee; /* Gecko Browsers */
-  color: #fbf34c;
+  color: yellow;
 }
 
 .rm-ls {
 	letter-spacing: initial;
 }
+
+@media only screen and (max-width: 768px) and (max-height: 1024px) {
+	html {
+	  font-size: 4vw;
+	}
+
+	h1 {
+	font-size: 8vw;
+	font-weight: 600;
+	letter-spacing: .006em;
+	}
+
+	h2 {
+		font-size: 6vw;
+	}
+
+	h3 {
+		font-size: 5vw;
+		font-weight: 300;
+		line-height: 1.3em;
+		letter-spacing: .01em;
+	}
+
+	p {
+		font-weight: 400;
+		line-height: 140%;
+		letter-spacing: -.021em;
+	}
+
+	label {
+		font-size: 3vw;
+		letter-spacing: 0.15em;
+	}
+}
+
 
 
