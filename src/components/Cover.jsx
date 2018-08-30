@@ -15,15 +15,15 @@ const Cover = () => (
 					<h3 className="cover-label cover-rhythm-2" >
 						Product Manager & Engineer / Design Geek
 					</h3>
-					<label>About m<span className="rm-ls">e</span></label>
+					<label>About me</label>
 					<p>
-						<strong className="">I've always had a love for products.</strong> After working as an engineer, building multiple products for a variety of bay area startups, I sought to understand new ways of creating products using iterative methodologies. I then earned my master's degree in Human-Computer Interaction at Carnegie Mellon University.
+						<strong className="yellow">I've always had a love for products.</strong> After working as an engineer, building multiple products for a variety of bay area startups, I sought to understand new ways of creating products using quick iterative methodologies and measuring its success. This led me to earning my master's degree in Human-Computer Interaction at Carnegie Mellon University.
 					</p>
 					<br />
 					<br />
-					<label>Toda<span className="rm-ls">y</span></label>
+					<label>Today</label>
 					<p>
-						I am now a product manager that uses <strong className="">8 years of cross-functional expertise</strong> to ship first-class products that people want and love. Find me at hellothisisrob@gmail.com.
+						I am now a product manager that uses 8 years of cross-functional expertise to ship first-class products that people want and love. Find me at <u>hellothisisrob@gmail.com</u>.
 					</p>
 					
 				</section>
