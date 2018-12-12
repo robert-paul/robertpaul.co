@@ -16,6 +16,7 @@ import GestureStub from '../components/GestureStub'
 const Home = () => (
 	<div className="home-body-width">
 		<Cover />
+		{/* 
 		<Intro />
 		<h2 className="stub-header"><span className="stub-header-span">Past Work</span> Human-Computer Interaction Institute at CMU / 2017-2018</h2>
 		<PncStub />
@@ -29,6 +30,7 @@ const Home = () => (
 		<PedestrianStub />
 		<TablematStub />
 		<GestureStub />
+		*/}  
 	</div>
 );
 

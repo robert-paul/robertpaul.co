@@ -26,8 +26,6 @@ nav {
     z-index: 999;
     background-color: white; }
   .nav-link-left {
-    padding: 10px 10px 10px 20px;
-    color: #0000EE; }
+    padding: 10px 10px 10px 20px; }
   .nav-link-right {
-    padding: 10px 20px 10px 10px;
-    color: #0000EE; } }
+    padding: 10px 20px 10px 10px; } }

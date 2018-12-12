@@ -6,8 +6,9 @@ const About = () => (
 		
 		<div className="about-content">
 			<div className="about-img-layout">
-				<img src={require("../images/rob.jpg")} className="about-img" />
+				<img src={require("../images/rob-1.jpg")} className="about-img" />
 			</div>
+			<br />
 			<p>Hi, I'm Rob!</p>
 			<br />
 			<p>I'm originally from Sacramento, CA, with fond childhood memories of playing basketball every day in summer and nearly getting a heat stroke in the 112° weather, then taking refuge to the air conditioned house to rack up high scores on Tony Hawk's Pro Skater.</p>
@@ -18,7 +19,10 @@ const About = () => (
 			<br />
 			<p>When I'm not in front of my macbook you can find me training for my first half-marathon, going to a Snail Mail show, keeping my 17 plants alive, and finding a new hot sauce to add to my collection.</p>
 			<br />
-			<p>Say hi at hellothisisrob@gmail.com and have a wonderful rest of your day :)</p>
+			<p>Say hi at hellothisisrob@gmail.com </p>
+			<br />
+			<br />
+			<br />
 		</div>
 		
 	</div>

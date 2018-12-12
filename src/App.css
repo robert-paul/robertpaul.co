@@ -1543,9 +1543,8 @@ a:hover {
   margin: 75px auto 0 auto; }
 
 .about-img {
-  object-fit: cover;
   width: 100%;
-  height: 400px;
+  height: auto;
   border-radius: 2px; }
 
 .about-content {
@@ -1743,11 +1742,9 @@ nav {
     z-index: 999;
     background-color: white; }
   .nav-link-left {
-    padding: 10px 10px 10px 20px;
-    color: #0000EE; }
+    padding: 10px 10px 10px 20px; }
   .nav-link-right {
-    padding: 10px 20px 10px 10px;
-    color: #0000EE; } }
+    padding: 10px 20px 10px 10px; } }
 
 .project-img-full-bleed {
   width: 100%;
