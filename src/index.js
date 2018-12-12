@@ -5,15 +5,19 @@ import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './screens/Home';
 import About from './screens/About';
+import Navbar from './components/Navbar';
+import Pnc from './screens/Pnc';
 
 const FourOhFour = () => <h1>404</h1>;
 
 const App = () => (
   <BrowserRouter >
     <div>
+      <Navbar />
       <Switch>
-        <Route path="/" component={Home} />
-        <Route path="/about" component={About} />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/pnc" component={Pnc} />
         <Route component={FourOhFour} />
       </Switch>
     </div>
