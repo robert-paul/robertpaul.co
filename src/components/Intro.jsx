@@ -104,9 +104,8 @@ const Intro = () => (
         </div>
         <div className="collapse" data-toggle="collapsed">
             <ul className="intro-ul"> 
-                <li className="intro-li">Money value test</li>
                 <li className="intro-li">Validate whether there is an addressable and sizable market</li>
-                <li className="intro-li">Discover the constraints on marketing the product</li>
+                <li className="intro-li">Discover the constraints on marketing/selling the product</li>
                 <li className="intro-li">Address potential product cannabilization</li>
             </ul>
         </div>

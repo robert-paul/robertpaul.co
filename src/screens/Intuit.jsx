@@ -3,7 +3,7 @@ import React from 'react';
 const Intuit = () => (
     <div>       
         <video muted preloaded="none" playsInline loop className="project-big-img" autoPlay="autoplay" >
-            <source src={require("../images/intuit/vid-5.mp4")} type="video/mp4" />
+            <source src={require("../images/intuit/banner-vid.mp4")} type="video/mp4" />
 		</video>
         <div className="project-summary">
             <h1 className="project-summary-h1">Designing a new help experience for QuickBooks</h1>
@@ -116,7 +116,7 @@ const Intuit = () => (
                 <br />
                 <br />
 
-                <h3 className="project-h3" style={{textAlign:"center"}}>Here is some of my recent on the help feature</h3>
+                <h3 className="project-h3" style={{textAlign:"center"}}>Here is some of my recent work on the help feature</h3>
                 <br />
                 <p className="project-p"><strong>30% of users use the help feature on weekly basis.</strong> The help feature plays a big role in helping users learn the product and reducing subscription churn.</p>
                 <br />
