@@ -7,7 +7,7 @@ import Home from './screens/Home';
 import About from './screens/About';
 import Navbar from './components/Navbar';
 import Pnc from './screens/Pnc';
-import Intuit from './screens/Intuit'
+import Intuit from './screens/Intuit';
 
 const FourOhFour = () => <h1>404</h1>;
 
