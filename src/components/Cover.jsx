@@ -1,9 +1,8 @@
 import React from 'react';
 
 const Cover = () => (
-	<div className="viewport-wrap" >
-		
-		<h1 className="home-h1">I&#8217;m Rob, a product designer who specializes in tackling the 4 risks to product early, quickly, and with craft.</h1>
+	<div className="viewport-wrap lg-width" >
+		<h1 className="home-h1">Robert Paul is a designer based in San Francisco. <br/>He tends to his plants when not working for <a href="https://quickbooks.intuit.com/" target="_blank">Intuit</a>🌱.</h1>
 	</div>
 )
 

@@ -2,24 +2,22 @@ import React from 'react';
 
 const About = () => (
 	<div className="about-container">
-		
-		
 		<div className="about-content">
 			<div className="about-img-layout">
-				<img src={require("../images/rob-1.jpg")} className="about-img" />
+				<img src={require("../images/rob-1.jpg")} className="about-img" alt="Robert Paul standing in front of a yellow brick wall." />
 			</div>
 			<br />
-			<p>Hi, I'm Rob!</p>
+			<h3 className="about-h3">A little about me...</h3>
 			<br />
-			<p>I'm originally from Sacramento, CA, with fond childhood memories of playing basketball every day in summer and nearly getting a heat stroke in the 112° weather, then taking refuge to the air conditioned house to rack up high scores on Tony Hawk's Pro Skater.</p>
+			<p>🏡 Originally from Sacramento but used to live in Seattle, LA, and Pittsburgh.</p>
 			<br />
-			<p>I treat my work identity like that of a sports athelete. The team is everything, ego's don't win championships, and every day is an opportunity to improve your craft and support your teammates.</p>
+			<p>🎸 In high school, I mostly played music. I've been playing piano and guitar for about 17 years now. </p>
 			<br />
-			<p>I've had the privilege of having incredible mentors and believe it's my responsibility to be a role model and mentor to the youth in my community. </p>
+			<p>✈️ My first job at 18 was working as a machinist, building Boeing airplanes.</p>
 			<br />
-			<p>When I'm not in front of my macbook you can find me training for my first half-marathon, going to a Snail Mail show, keeping my 17 plants alive, and finding a new hot sauce to add to my collection.</p>
+			<p>When I'm not in front of my macbook you can find me going to music shows, keeping my 17 plants alive, and finding a new hot sauce to add to my collection.</p>
 			<br />
-			<p>Say hi at hellothisisrob@gmail.com </p>
+			<p>Say hi at <a className="footer-link" href="mailto:hellothisisrob@gmail.com?Subject=Hola!" target="_blank" rel="noopener" data-mce-href="mailto:hellothisisrob@gmail.com?Subject=Hola!" data-mce-selected="1"><u>hellothisisrob@gmail.com</u></a> </p>
 			<br />
 			<br />
 			<br />

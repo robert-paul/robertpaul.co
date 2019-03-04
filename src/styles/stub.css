@@ -1,10 +1,7 @@
 .stub-layout {
-  display: block;
-  transition: all 0.3s ease-in-out;
+  width: 100%;
   padding: 20px 0 20px 0;
-  align-items: center;
-  border-radius: 3px;
-  line-height: 150%;
+  margin-top: 175px;
   margin-bottom: 100px; }
 
 .stub-layout:active {
@@ -13,17 +10,60 @@
 .stub-layout:visited {
   color: #444; }
 
+.stub-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  max-height: 700px; }
+
+.stub-left {
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%; }
+
+.stub-left-layout {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 25% 0 0 0; }
+
 .stub-img {
+  border-radius: 3px;
+  max-height: auto;
   max-width: 100%;
-  border-radius: 3px; }
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
 
 .stub-label {
-  font-weight: 300; }
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 5px; }
 
 .stub-desc {
-  font-weight: 500; }
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  font-size: 32px;
+  font-weight: 500;
+  margin: 10px 0 0 0;
+  line-height: 120%; }
+
+.stub-platform {
+  font-size: 20px;
+  margin-top: 45px;
+  color: #999;
+  font-weight: 300; }
 
 .stub-button {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
   background-color: #f2f2f2;
   border: 1px solid #c6c6c6;
   color: #757575;
@@ -55,8 +95,23 @@
 .stub-header-a {
   color: #0000EE; }
 
-@media only screen and (max-width: 768px) and (max-height: 1024px) {
-  .stub-button {
-    text-align: center;
-    width: 100%;
+@media only screen and (max-width: 767px) and (max-height: 1024px) {
+  .stub-layout {
+    margin-top: 50px;
+    margin-bottom: 50px; }
+  .stub-left-layout {
+    padding: 0 15px 0 15px; }
+  .stub-right-layout {
+    margin-top: 25px;
+    padding: 0 15px 0 15px; }
+  .stub-row {
+    flex-direction: column; }
+  .stub-right {
+    margin-top: 25px; }
+  .stub-label {
+    font-size: 16px; }
+  .stub-desc {
+    font-size: 24px; }
+  .stub-platform {
+    font-size: 16px;
     margin-top: 20px; } }

@@ -1,17 +1,29 @@
 .viewport-wrap {
-	height: 83vh;
+	height: calc(100vh - 50px);
+	//margin: 75px 0 0 0;
 	display: flex;
-	align-items: center;
+	//align-items: center;
 	flex-direction: column;
 	justify-content: center;
+	width: 100%;
+	padding: 0 15px 0 15px;
 }
 
 .home-h1 {
+	letter-spacing: -.003em;
+	font-size: 47px;
+	font-weight: 500;
+	line-height: 140%;
 
-	font-size: 25.5px;
-	font-weight: 400;
-	line-height: 150%;
+	a {
+		color: #45c01f;
+	}
+	a:hover {
+	
+	}
 }
+
+
 
 .cover-img-layout{
 	width: 100%;
@@ -26,16 +38,27 @@
 	max-height: 100px;
 	border-radius: 50%;
 }
-
-@media only screen and (max-width: 768px) and (max-height: 1024px) {
+.weird {
+	position: absolute;
+	font-size: 150px;
+	z-index: -99;
+	top:475px;
+	color: transparent;
+  	text-shadow: 0 0 #45c01f;
+}
+@media only screen and (max-width: 767px) and (max-height: 1024px) {
 	.viewport-wrap {
 		height: 90vh;
+		//margin: 75px 0 0 0;
+		display: flex;
+		//align-items: center;
+		flex-direction: column;
+		justify-content: center;
 	}
 	.home-h1 {
 
-		font-size: 16px;
+		font-size: 39px;
 		//letter-spacing: -0.3px;
-		word-spacing: -4px;
 		
 	}
 }

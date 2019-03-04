@@ -25,4 +25,13 @@
     //flex-basis: 66%;
     padding: 0 0 0 0;;
 }
+.about-h3 {
+    font-size: 1.414em;
+    font-weight: 700;
+}
+@media only screen and (max-width: 767px) and (max-height: 1024px) {
+    .about-container {
+        margin-top: 25px;
+    }
 
+}

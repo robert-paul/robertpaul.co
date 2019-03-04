@@ -1,30 +1,39 @@
 nav {
-	margin: 50px auto 0 auto;
+	display: block;
+	margin: 0 auto 0 auto;
+	padding: 15px 15px 15px 15px;
 	font-size: 20px;
 	font-weight: 400;
+	letter-spacing: 1px;
 	overflow: hidden;
-	//color: #0000EE;
+	background-color: rgba(255,255,255,1);
+	color: #484848;
+	a, a:active, a:visited {
+		color: #484848;
+	}
 }
 
 .nav-link-left {
-	padding: 20px;
+	font-weight: 500;
 	float: left;
-
-	//font-weight: 700;
-	
 }
 
 .nav-link-right {
-	padding: 20px;
 	float: right;
-
 }
 
 .nav-link:hover {
 	color:inherit;
 }
 
-@media only screen and (max-width: 768px) and (max-height: 1024px) {
+.nav-sticky{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 999;
+}
+
+@media only screen and (max-width: 767px) and (max-height: 1024px) {
 
 	nav {
 		margin: 0 auto 0 auto;
@@ -39,11 +48,12 @@ nav {
 		top: 0;
 		z-index: 999;
 		background-color: white;
+		padding: 15px 15px 15px 15px;
 		
 	}
 
 	.nav-link-left {
-		padding: 10px 10px 10px 20px;
+		//padding: 10px 10px 10px 20px;
 		//color: #0000EE;
 		//float: left;
 		//font-weight: 700;
@@ -51,7 +61,7 @@ nav {
 	}
 	
 	.nav-link-right {
-		padding: 10px 20px 10px 10px ;
+		//padding: 10px 20px 10px 10px ;
 		//color: #0000EE;
 		//padding: 15px;
 		//float: right;
