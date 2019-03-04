@@ -3,7 +3,7 @@ import React from "react";
 
 const IntuitStub = () => (
 	<div className="lg-width stub-layout">
-		<a href='/intuit' className="container-fluid">
+		<a href={process.env.PUBLIC_URL + '/intuit'} className="container-fluid">
 			<div className="row">
 				<div className="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
 					<div className="stub-left-layout">
