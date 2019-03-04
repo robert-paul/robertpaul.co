@@ -19,7 +19,7 @@ const App = () => (
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/pnc" component={Pnc} />
-        <Route path={process.env.PUBLIC_URL + '/intuit'} component={Intuit} />
+        <Route exact path={process.env.PUBLIC_URL + '/intuit'} component={Intuit} />
         <Route component={FourOhFour} />
       </Switch>
     </div>
