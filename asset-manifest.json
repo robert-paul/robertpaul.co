@@ -1,9 +1,10 @@
 {
-  "main.css": "static/css/main.56588438.css",
-  "main.css.map": "static/css/main.56588438.css.map",
-  "main.js": "static/js/main.a5a3c9a0.js",
-  "main.js.map": "static/js/main.a5a3c9a0.js.map",
+  "main.css": "static/css/main.a2ef0c12.css",
+  "main.css.map": "static/css/main.a2ef0c12.css.map",
+  "main.js": "static/js/main.43eb3f4d.js",
+  "main.js.map": "static/js/main.43eb3f4d.js.map",
   "static/media/1.mp4": "static/media/1.4e537fea.mp4",
+  "static/media/banner-vid.mp4": "static/media/banner-vid.64d356d2.mp4",
   "static/media/dolores1.JPG": "static/media/dolores1.5c3eb7e5.JPG",
   "static/media/flow.png": "static/media/flow.2ccc6726.png",
   "static/media/fortune-cookie.jpg": "static/media/fortune-cookie.e800ec43.jpg",
@@ -20,6 +21,5 @@
   "static/media/slack-2.jpg": "static/media/slack-2.a190a859.jpg",
   "static/media/slack-3.jpg": "static/media/slack-3.638793f5.jpg",
   "static/media/solution-lg.mp4": "static/media/solution-lg.872e5169.mp4",
-  "static/media/trowser.mp4": "static/media/trowser.9d1cbc0a.mp4",
-  "static/media/vid-5.mp4": "static/media/vid-5.8caf9c6f.mp4"
+  "static/media/trowser.mp4": "static/media/trowser.9d1cbc0a.mp4"
 }
